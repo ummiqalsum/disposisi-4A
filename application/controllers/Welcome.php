@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Welcome extends CI_Controller {
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$this->load->view('admin/template/menu');
 	}
 
 	public function about()
@@ -19,6 +19,6 @@ class Welcome extends CI_Controller {
 
 	public function menu()
 	{
-		$this->load->view('template/menu');
+		$this->load->view('admin/template/menu');
 	}
 }
