@@ -24,7 +24,6 @@
                                     <th>Email</th>
                                     <th>Phone</th>
                                     <th>Role</th>
-
                                     <th>Action</th>
                                 </tr>
                             </thead>
@@ -37,15 +36,12 @@
                                         <td>$user->username</td>
                                         <td>$user->email</td>
                                         <td>$user->phone</td>
-
-
                                         <td>$user->role</td>
-
                                         <td>
                                         <div>
                                         <a href=".base_url('admin/user/getedit/' . $user->id)." class='btn btn-sm btn-info'><i class='fas fa-edit'></i> Edit</a>
                                         <a href=".base_url('admin/user/delete/' . $user->id)." class='btn btn-sm btn-danger'
-                                        onclick='return confirm(\"Ingin mengapus datauser ini?\");'><i class='fas fa-trash'></i> Hapus</a>
+                                        onclick='return confirm(\"Ingin menghapus datauser ini?\");'><i class='fas fa-trash'></i> Hapus</a>
                                         </div>
                                         </td>
                                     </tr>";

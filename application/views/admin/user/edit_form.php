@@ -38,6 +38,7 @@
                     </select>
                 </div>
                 <button class="btn btn-primary" type="submit"><i class="fas fa-plus"></i> Save</button>
+                <button class="btn btn-primary" onclick="history.back()">Kembali</button>
                 </form>
             </div>
         </div>
